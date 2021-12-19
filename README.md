@@ -20,9 +20,9 @@ smile `pip install smile`
 
 ## Function
 ### Run jackhmmer
+Run Jackhmmer following the Jackhmmer guide book(http://eddylab.org/software/hmmer/Userguide.pdf), and fit the output to the `aln_example/sample.aln` format. Here are the hmmer parameters:
 ```
-python run_hmmer.py --csv_path ./csv_example/sample.csv --aln_path ./aln_example/sample.aln --db_path ./db/uniref50.fasta --core_num 4
-csv_path 
+phmmer -E 1 --domE 1 --incE 0.01 --incdomE 0.03 --mx BLOSUM62 --pextend 0.4 --popen 0.02 -o {out_path} -A {sto_path} --notextw --cpu {cpu_num} {fasta_path} {db_path}
 ```
 #### Parameters
 *csv_path* - input protein sequences file path.
