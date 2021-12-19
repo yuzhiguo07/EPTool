@@ -70,5 +70,12 @@ See `./feat_example/sample2.feat` for an example of input feat file.
 ```
 python grayscale.py --pssm_path ./feat_example/sample.pssm
 ```
+### Citation
+```
+Please cite the following paper in your publication if it helps your research:
 
+Guo, Y., Wu, J., Ma, H., Wang, S. and Huang, J., 2020, May. Bagging MSA Learning: Enhancing Low-Quality PSSM with Deep Learning for Accurate Protein Structure Property Prediction. In International Conference on Research in Computational Molecular Biology (pp. 88-103). Springer, Cham.
+
+Guo, Y., Wu, J., Ma, H., Wang, S., & Huang, J. (2021). EPTool: A New Enhancing PSSM Tool for Protein Secondary Structure Prediction. Journal of Computational Biology, 28(4), 362-364.
+```
 
