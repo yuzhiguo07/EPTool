@@ -1,4 +1,4 @@
-# EPTool: A New Enhancing PSSM Tool forProtein Secondary Structure Prediction
+# EPTool: A New Enhancing PSSM Tool for Protein Secondary Structure Prediction
 
 Recently, a deep learning based enhancing PSSM method (Bagging MSA Learning (Y Guo, et al.)) has been proposed, and its effectiveness has been empirically proved. Program EPTool is the implementation of Bagging MSA Learning, which provides a complete training and evaluation workflow for the enhancing PSSM model. It is capable for handling different input dataset and various computing algorithms to train the enhancing model, then eventually improve the PSSM quality for those proteins with insufficient homologous sequences. In addition, EPTool equips several convenient applications, such as PSSM features calculator, and PSSM features visualization. In this paper, we propose designed EPTool, and briefly introduce its functionalities and applications. The detail accessible instructions is also provided. 
 
