@@ -24,14 +24,6 @@ Run Jackhmmer following the Jackhmmer guide book(http://eddylab.org/software/hmm
 ```
 phmmer -E 1 --domE 1 --incE 0.01 --incdomE 0.03 --mx BLOSUM62 --pextend 0.4 --popen 0.02 -o {out_path} -A {sto_path} --notextw --cpu {cpu_num} {fasta_path} {db_path}
 ```
-#### Parameters
-*csv_path* - input protein sequences file path.
-
-*aln_path* - output MSA file path
-
-*db_path* - database file path
-
-*core_num* - cpu core number
 
 ### Calculate PSSM
 ```
